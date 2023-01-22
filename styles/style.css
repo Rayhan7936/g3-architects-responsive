@@ -1,0 +1,260 @@
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=swap');
+        body {
+            background-color: white;
+            margin: 0px;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        header {
+            background-color: rgba(255, 144, 14, 0.1);
+            background-size: cover;
+        }
+        /*---------- G3- Architects point
+  ------------------------------------ */
+        
+        .g3-architects {
+            display: grid;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 110px;
+            margin-bottom: 40px;
+        }
+        
+        .header-item a {
+            text-decoration: none;
+            color: black;
+            padding: 20px;
+        }
+        
+        .header-info {
+            text-align: center;
+        }
+        
+        .header-info h1 {
+            margin: 0px 470px;
+            font-size: 60px;
+        }
+        
+        .header-info p {
+            margin: 0px 330px;
+            color: #727272;
+        }
+        
+        .btn-normal {
+            margin: 10px 600px;
+            border: none;
+            background-color: #FF900E;
+            padding: 10px 20px;
+            margin-left: 680px;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+        }
+        
+        header img {
+            width: cover;
+            height: 600px;
+            margin: 20px 110px;
+        }
+        /* -------------------------Quick list of Our Features-----------------------------    */
+        
+        .Quick-list {
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+            margin: 80px 130px;
+        }
+        
+        .team {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        
+        .Quick-list-header {
+            margin-top: 220px;
+        }
+        
+        .Quick-list-header h2 {
+            padding-right: 250PX;
+            color: #727272;
+            font-family: 'Work Sans';
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 53px;
+        }
+        
+        .Quick-list-header p {
+            color: #727272;
+        }
+        
+        .span-1 {
+            color: #000000;
+            font-size: 30px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+        }
+        
+        .span-2 {
+            color: #FF900E;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+        }
+        
+        .btn-reguler {
+            border: none;
+            background-color: #FF900E;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+        }
+        /*----------------- Features you will love & enjoy----- */
+        
+        .Features-love {
+            margin: 30px 150px;
+            display: flex;
+            gap: 40px;
+        }
+        
+        #verticle-line {
+            width: 15px;
+            height: 80px;
+            background: #FF900E;
+            margin-top: 40px;
+        }
+        
+        .verticle-features {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .Feature-header h2 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 53px;
+            margin-right: 100px;
+        }
+        
+        .Features-div {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 20px;
+            border-color: green;
+            margin-right: 20px;
+        }
+        
+        .Feature-header p {
+            font-size: 16px;
+            line-height: 26px;
+            color: #727272;
+        }
+        
+        .features {
+            background: #FFFFFF;
+            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+            border-radius: 8px;
+        }
+        
+        .features p,
+        h4 {
+            margin: 15px 30px;
+        }
+        
+        .btn {
+            color: white;
+            background-color: #FF900E;
+            font-family: 'Poppins', sans-serif;
+            padding: 50px 5px;
+            border: none;
+            border-radius: 5px;
+            border-radius: 5px;
+            transform: scale(0.8) translate(290%, -110%);
+        }
+        
+        span {
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 40px;
+        }
+        /* --------------------------------
+        some-facts-----------------------*/
+        
+        .container {
+            margin-left: 125px;
+            margin-right: 800px;
+        }
+        
+        .container p {
+            color: #727272;
+        }
+        
+        .container-box {
+            display: flex;
+            gap: 30px;
+            margin: 40px 260px;
+            padding-bottom: 60px;
+        }
+        
+        .box {
+            margin-top: 10px;
+            text-align: center;
+            box-sizing: border-box;
+            width: 200.83px;
+            height: 200.83px;
+            border: 1px solid #FF900E;
+            border-radius: 8px;
+        }
+        
+        .box p {
+            color: #727272;
+        }
+        
+        .box img {
+            padding-top: 20px;
+        }
+        /*-------------------------------- Our-Sponspors------------------------- */
+        
+        .sponspors {
+            text-align: center;
+            margin-top: 10px;
+            padding: 0px 440px;
+        }
+        
+        .sponspors p {
+            color: #727272;
+        }
+        
+        .sponspors-logo {
+            display: flex;
+            gap: 80px;
+            justify-content: space-around;
+            padding-top: 10px;
+            padding-bottom: 100px;
+        }
+        
+        .sponspors-logo img {
+            mix-blend-mode: luminosity;
+        }
+        /*-------------------------------------------- Footer------------------------ */
+        
+        .footer {
+            margin-left: 300px;
+            margin-bottom: 100px;
+            width: 1000px;
+            height: 60px;
+            background: #FFF4E7;
+            border-radius: 8px;
+        }
+        
+        footer p {
+            text-align: center;
+            padding-top: 20px;
+            font-size: 10px;
+        }
